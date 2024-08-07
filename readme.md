@@ -1,8 +1,8 @@
-# TWN
+# TWN_InfoDecay
 
 ## Context
 
-Implementation of TempoWordNet to perform lemmetization and stemming.
+Usage of TempoWordNet to perform lemmetization and stemming for Information Decay paper feature.
 
 # Steps
 
