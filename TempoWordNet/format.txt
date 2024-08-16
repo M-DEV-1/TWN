@@ -1,0 +1,91 @@
+# TWnH-1.0 (13 May 2014)
+# Copyright 2014 GREYC - CNRS UMR  6072.
+# All right reserved.
+# TempoWordNet is distributed under the Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.
+# where you are free to:
+#    1.Share — copy and redistribute the material in any medium or format
+#    2.Adapt — remix, transform, and build upon the material 
+# for any purpose, even commercially. For more information (http://creativecommons.org/licenses/by-sa/3.0/)
+
+# For latest updates, see http://tempowordnet.greyc.fr
+# ----------------------------------------------------
+# This file contains important information about TempoWordNet. 
+# Please read this information very carefully before starting work.
+#
+# ----------------------------------------
+# Please refer to the following papers for details about the TempoWordNet:
+#
+# Authors: Gaël Dias,Mohammed Hasanuzzaman,Stéphane Ferrari,Yann Mathet
+# Paper Title: TempoWordNet for Sentence Time Tagging
+# In Proceedings of the companion publication of the 23rd international conference on World wide web companion 
+# (WWW Companion '14), Pages 833-838 
+# Year: 2014
+# 
+# Authors:Mohammed Hasanuzzaman,Gaël Dias,Stéphane Ferrari,Yann Mathet
+# Paper Title: Propagation Strategies for Building Temporal Ontologies
+# In Proceedings 14th Conference of the European Chapter of the Association for Computational Linguistics,volume 2 #(EACL 2014),Pages 6-11
+# Year: 2014
+#
+#------------------------------------------------------------------------------
+# Data format.
+# --------------
+# TWnH-1.0 is based on WordNet version 3.0 (WordNet website: http://wordnet.princeton.edu/)
+# where each synset of WordNet 3.0 has been assigned by its intrinsic temporal values.
+# The 'ID' uniquely identifies a WordNet (3.0) synset.
+# 'Name' column represents the terms, with sense number, belonging
+# to the synset. 
+# 'POS' column represents the morpho-syntactic category of the particular synset belongs. 
+# 'Gloss' carries the meaning of the synsets explained with short defining glosses. 
+# The values 'Prob_of_being_Past', 'Prob_of_being_Present','Prob_of_being_Future',and 'Prob_of_being_Atemporal' 
+# are the probabilities assigned automatically by the TempoWordNet builing process.  
+# All columns are separated by white space. 
+# 
+#
+# --------------------------------
+#
+
+# TWnP-1.0 (13 May 2014)
+# Copyright 2014 GREYC - CNRS UMR  6072.
+# All right reserved.
+# TempoWordNet is distributed under the Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.
+# where you are free to:
+#    1.Share — copy and redistribute the material in any medium or format
+#    2.Adapt — remix, transform, and build upon the material 
+# for any purpose, even commercially. For more information (http://creativecommons.org/licenses/by-sa/3.0/)
+
+# For latest updates, see http://tempowordnet.greyc.fr
+# ----------------------------------------------------
+# This file contains important information about TempoWordNet. 
+# Please read this information very carefully before starting work.
+#
+# ----------------------------------------
+# Please refer to the following papers for details about the TempoWordNet:
+# Authors: Gaël Dias,Mohammed Hasanuzzaman,Stéphane Ferrari,Yann Mathet
+# Paper Title: TempoWordNet for Sentence Time Tagging
+# In Proceedings of the companion publication of the 23rd international conference on World wide web companion 
+# (WWW Companion '14), Pages 833-838 
+# Year: 2014
+# 
+# Authors:Mohammed Hasanuzzaman,Gaël Dias,Stéphane Ferrari,Yann Mathet
+# Paper Title: Propagation Strategies for Building Temporal Ontologies
+# In Proceedings 14th Conference of the European Chapter of the Association for Computational Linguistics,volume 2 #(EACL 2014),Pages 6-11
+# Year: 2014
+#
+#------------------------------------------------------------------------------
+# Data format.
+# --------------
+# TWnP-1.0 is based on WordNet version 3.0 (WordNet website: http://wordnet.princeton.edu/)
+# where each synset of WordNet 3.0 has been assigned by its intrinsic temporal values.
+# The 'ID' uniquely identifies a WordNet (3.0) synset.
+# 'Name' column represents the terms, with sense number, belonging
+# to the synset. 
+# 'POS' column represents the morpho-syntactic category of the particular synset belongs. 
+# 'Gloss' carries the meaning of the synsets explained with short defining glosses. 
+# The values 'Prob_of_being_Past', 'Prob_of_being_Present','Prob_of_being_Future',and 'Prob_of_being_Atemporal' 
+# are the probabilities assigned automatically by the TempoWordNet builing process.  
+# All columns are separated by white space. 
+# 
+#
+# --------------------------------
+#
+#
