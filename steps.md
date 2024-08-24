@@ -1,11 +1,15 @@
-# Record of everything I've done (steps)
+# Further Instructions
 
-1. Note and install necessary libraries
+- use Regex to fix word-matching issue -> death_squad, deathlike being used for death {7355491 is the exact ID for death}
+    - [ ]{3,} - Regex
+- stemming removed, lemmatize only
+- figure out H L P meaning (.txt)
+- will receive figma and resources
 
-2. Download TempoWordNet files. (H, L, P)
+## Approach
+[we considered levenstein distance but now removed because it doesn't take semantics into account]
 
-3. Compare files in diff checker for similarities in files
-
-3.1 Files contain the same words, but different values
-
+    3. BERT + embeddings
+        - MongoDB, Pinecone for database - Pinecone for now
+        - First check {word} 
 
