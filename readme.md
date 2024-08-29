@@ -1,23 +1,48 @@
-# TWN_InfoDecay
 
-## Context
+# TempoWordNet Processing Notebook
 
-Usage of TempoWordNet to perform lemmetization and stemming for Information Decay paper feature.
+This Jupyter Notebook is designed to process sentences using TempoWordNet, a lexical resource. It reads a dataset, processes input sentences to calculate temporal probabilities, and outputs the results to a text file.
 
-# Steps
+## Files
+- **TempoWordNet Dataset:** This notebook assumes a file located at `./TempoWordNet/TempoWnL_1.0.txt`. Ensure this file is present before running the notebook.
+- **Output File:** Processed results are saved to `processed_results.txt`.
 
-1. study and understand lemmetization, stemming, stop word removal (preprocessing)
+## Requirements
 
-2. use NLTK, Gensim, and Spacy (libraries)
+- Python 3.x
+- pandas
+- numpy
 
-3. PANDAS, and NumPy (dataframes)
+Ensure that these libraries are installed in your environment. You can install the required libraries using:
 
-4. Create a script to convert TempoWordNet.txt to dataframe in Pandas with a quadtuple (past, present, future, atemporal)
+```bash
+pip install pandas numpy
+```
 
-5. This is to be done after preprocessing (stemming, lemmatization and stop words removal)
+## How to Use
 
-6. The script works such that each sentence is represented as an array of tuples, which returns a new tuple of averages (past_avg, present_avg, etc...)
+1. **Load the Dataset:**
+   The dataset is loaded using the `read_tempowordnet_manually()` function, which reads and processes the TempoWordNet file.
 
-7. You must use a Python Notebook to do this task.
+2. **Input a Sentence:**
+   You will be prompted to input a sentence. This sentence will be processed to calculate temporal probabilities.
 
-8. Use try exception to get rid of words which do not exist in TempoWordNet
+3. **View Results:**
+   The processed results are appended to `processed_results.txt`. If the sentence does not contain any words found in TempoWordNet, the file may not show relevant results.
+
+## Known Issues
+
+- **Results Not Displaying:** If results are not showing up in `processed_results.txt`, it may be due to:
+  - The input sentence not matching any entries in the TempoWordNet dataset.
+  - Potential errors in the processing logic.
+
+## Future Improvements
+
+- **Error Handling:** Add more robust error handling and validation to ensure that the file paths exist, inputs are valid, and the processing logic is resilient.
+- **Logging:** Implement logging to track the execution flow and identify any issues.
+- **Refactoring:** Clean up the code by removing outdated comments and refactoring the functions for better readability and maintainability.
+- **Testing:** Add unit tests to verify the functionality of each component.
+
+## License
+
+This project is open-source and available under the MIT License.
