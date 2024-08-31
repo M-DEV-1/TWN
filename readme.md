@@ -8,15 +8,10 @@ This Jupyter Notebook is designed to process sentences using TempoWordNet, a lex
 - **Output File:** Processed results are saved to `processed_results.txt`.
 
 ## Requirements
-
-- Python 3.x
-- pandas
-- numpy
-
 Ensure that these libraries are installed in your environment. You can install the required libraries using:
 
 ```bash
-pip install pandas numpy
+pip install -r requirements.txt
 ```
 
 ## How to Use
