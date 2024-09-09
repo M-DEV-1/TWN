@@ -1,3 +1,4 @@
+.gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -31,5 +32,7 @@ MANIFEST
 #  Usually these files are written by a python script from a template
 #  before PyInstaller bui
 
-temp.py
 steps.md
+temp.py
+.env
+.vscode
