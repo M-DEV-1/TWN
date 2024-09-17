@@ -25,12 +25,6 @@ pip install -r requirements.txt
 3. **View Results:**
    The processed results are appended to `processed_results.txt`. If the sentence does not contain any words found in TempoWordNet, the file may not show relevant results.
 
-## Known Issues
-
-- **Results Not Displaying:** If results are not showing up in `processed_results.txt`, it may be due to:
-  - The input sentence not matching any entries in the TempoWordNet dataset.
-  - Potential errors in the processing logic.
-
 ## Future Improvements
 
 - **Error Handling:** Add more robust error handling and validation to ensure that the file paths exist, inputs are valid, and the processing logic is resilient.
