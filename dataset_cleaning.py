@@ -11,8 +11,8 @@ for i in filearray:
         data = file.read()
 
     # Step 2: Apply the Regex
-    # The regex expression `re.sub(r'[ ]{3,}', ' ', data)` replaces 3 or more spaces with 5 spaces
-    cleaned_data = re.sub(r'[ ]{3,}', '\t', data)
+    # The regex expression `re.sub(r'[ ]{2,}', ' ', data)` replaces 2 or more spaces with a tab delimiter
+    cleaned_data = re.sub(r'[ ]{2,}', '\t', data)
 
     # Step 3: Write the cleaned data back to a new file or overwrite the original file
     with open(i, 'w') as file:
